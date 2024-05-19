@@ -1,4 +1,4 @@
-package demo.src.main.java.com.example;
+package com.example;
 
 
 import java.util.ArrayList;
@@ -29,7 +29,7 @@ public class SistemaControlAcceso {
 }
 
 class CapturaImagenes extends Thread {
-    String[] datosCarasDetectadas = ManejadorArchivosGenerico.leerArchivo("C:\\Users\\juani\\OneDrive - Universidad Católica del Uruguay\\Sistemas Operativos\\Obligatorio\\demo\\src\\main\\java\\com\\example\\carasDetectadas.txt");
+    String[] datosCarasDetectadas = ManejadorArchivosGenerico.leerArchivo("C:\\Users\\juani\\OneDrive - Universidad Católica del Uruguay\\Sistemas Operativos\\Obligatorio\\Obligatorio-SO\\demo\\src\\main\\java\\com\\example\\carasDetectadas.txt");
     ArrayList<String[]> datos = new ArrayList<>();
     private String nombre;
     private String importancia;
@@ -50,7 +50,7 @@ class CapturaImagenes extends Thread {
             Thread.sleep(1000);
 
             String nuevaEntrada = nombre + "," + importancia;
-            ManejadorArchivosGenerico.escribirArchivo("C:\\Users\\juani\\OneDrive - Universidad Católica del Uruguay\\Sistemas Operativos\\Obligatorio\\demo\\src\\main\\java\\com\\example\\carasDetectadas.txt", new String[]{nuevaEntrada});
+            ManejadorArchivosGenerico.escribirArchivo("C:\\Users\\juani\\OneDrive - Universidad Católica del Uruguay\\Sistemas Operativos\\Obligatorio\\Obligatorio-SO\\demo\\src\\main\\java\\com\\example\\carasDetectadas.txt", new String[]{nuevaEntrada});
             System.out.println("Nueva entrada agregada: " + nuevaEntrada);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
@@ -103,7 +103,7 @@ class ControlAcceso extends Thread {
             while (true) {
                 System.out.println("Controlando acceso...");
 
-                String[] datosCarasLeidas = ManejadorArchivosGenerico.leerArchivo("C:\\Users\\juani\\OneDrive - Universidad Católica del Uruguay\\Sistemas Operativos\\Obligatorio\\demo\\src\\main\\java\\com\\example\\carasDetectadas.txt");
+                String[] datosCarasLeidas = ManejadorArchivosGenerico.leerArchivo("C:\\Users\\juani\\OneDrive - Universidad Católica del Uruguay\\Sistemas Operativos\\Obligatorio\\Obligatorio-SO\\demo\\src\\main\\java\\com\\example\\carasDetectadas.txt");
                 ArrayList<String[]> datos = new ArrayList<>();
 
                 for (String linea : datosCarasLeidas) {

@@ -1,5 +1,0 @@
-JuanPerez,baja
-RodrigoGomez,media
-DiegoAguirre,Alta
-PatricioSilvera,baja
-JuanRoman,Alta

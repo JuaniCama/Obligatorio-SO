@@ -1,0 +1,35 @@
+Identificación Preliminar de Recursos y Procesos:
+
+Para las cámaras de vigilancia, considera aspectos como la resolución de las cámaras, su ubicación estratégica para una cobertura óptima, y la capacidad de las cámaras PTZ para el seguimiento y zoom.
+
+Los servidores y estaciones de trabajo deben tener la capacidad de procesamiento necesaria para el reconocimiento facial en tiempo real, además de almacenar y gestionar grandes volúmenes de video.
+
+El sistema de almacenamiento HVRs debe ser escalable y compatible con la grabación de cámaras IP y analógicas.
+
+El centro de monitoreo debe contar con una interfaz intuitiva para la supervisión en tiempo real y la gestión de eventos.
+
+El sistema eléctrico autónomo debe asegurar la continuidad del sistema en caso de cortes de energía, por lo que debes considerar la capacidad del generador, la autonomía de las UPS y las protecciones contra sobretensiones y eventos atmosféricos.
+
+
+Criterios de Optimización:
+
+La eficiencia del reconocimiento facial debe considerar la precisión y velocidad del sistema. Esto implica utilizar algoritmos avanzados de reconocimiento facial que puedan identificar a las personas con alta exactitud en tiempo real.
+
+Para minimizar el tiempo de espera en las colas de entrada, es importante optimizar los procesos de reconocimiento facial y control de acceso para que el flujo de personas sea fluido y rápido.
+
+La seguridad y protección de datos deben garantizarse mediante el uso de técnicas de cifrado y protocolos de seguridad robustos para proteger la información biométrica de los usuarios.
+
+La adaptabilidad del sistema implica la personalización de las configuraciones para diferentes escenarios y tipos de personas, como la implementación de listas VIP o la adaptación a personas con discapacidades.
+
+En cuanto al costo, debes evaluar tanto el costo inicial de adquisición e implementación como los costos de mantenimiento a largo plazo, considerando aspectos como licencias de software, actualizaciones de hardware y servicios de mantenimiento.
+
+Selección de Alternativa y Simulación:
+
+
+La alternativa seleccionada debe ser aquella que optimice los criterios prioritarios establecidos, equilibrando la eficiencia del reconocimiento facial, el tiempo de espera en las colas de entrada, la seguridad de datos, la adaptabilidad y el costo.
+
+La simulación debe diseñarse para reflejar diferentes escenarios, como períodos de alta demanda (inicio de clases) y eventos especiales (visitas VIP), para evaluar el rendimiento del sistema en condiciones variadas.
+
+La arquitectura de la solución debe identificar los hilos de ejecución para los procesos principales, como la captura de imágenes, el reconocimiento facial y el control de acceso, asegurando una integración fluida entre ellos.
+
+Con estas ampliaciones, estarás mejor preparado para completar tu avance y avanzar con éxito en tu proyecto.
